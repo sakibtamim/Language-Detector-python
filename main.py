@@ -4,7 +4,7 @@ import tkinter as tk
 
 def detect_lang():
     window = tk.Tk()
-    window.geometry('600x400')
+    window.geometry('600x300')
     head = tk.Label(window, text='Language Detector', font='Calibri 18')
     head.pack(pady=20)
 
